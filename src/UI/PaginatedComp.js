@@ -11,10 +11,10 @@ function PaginatedItems({ itemsPerPage,items }) {
           <>
             {currentItems &&
               currentItems.map((item) => (
-                <>
+               
                  
                   <ProductCard key={item.id} id={item.id} title={item.title} img={item.image} price={item.price} />
-                </>
+                
               ))}
           </>
         );

@@ -39,19 +39,7 @@ const Nav = () => {
               </NavLink>
             </li>
            
-            <li className="nav-item dropdown">
           
-              <a className="nav-link dropdown-toggle" href="/" id="dropdownMenuButton" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Categories
-              </a>
-              <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton">
-                <li><a className="dropdown-item" href="/">Electronics</a></li>
-                <li><a className="dropdown-item" href="/">Jewelery</a></li>
-                <li><a className="dropdown-item" href="/">Men's clothing</a></li>
-                <li><a className="dropdown-item" href="/">Women's clothing</a></li>
-              </ul>
-
-            </li>
 
             <li className="nav-item">
               <NavLink className={ `navbar-nav ${ classes["navbar-nav"]} ${classes['nav-link']}`  } to="details" end>
