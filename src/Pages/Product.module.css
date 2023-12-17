@@ -1,0 +1,136 @@
+.card_title{
+    color: black;
+    position: relative;
+}
+.card_title::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -8px;
+    height: 4px;
+    width: 125px;
+    background: #12263a;
+}
+.product-cat h5{
+    background-color: #fdadba82;
+    width: fit-content;
+    padding: 3px 12px;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin-top: 18px;
+    color: #6d6b6b;
+}
+.product-price{
+        color: #f38194;
+        font-size: 1.75rem;
+        
+}
+.card-sub-title{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #6d6b6b;
+}
+.qty-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.qty-box .input-group {
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+    width: unset;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.input-group-prepend {
+    margin-right: -1px;
+}
+.input-group-append, .input-group-prepend {
+    display: -ms-flexbox;
+    display: flex;
+}
+.input-group span button {
+    background: #ffffff !important;
+    border: 1px solid #ced4da;
+}
+.input-group button {
+    background-color: transparent;
+    border: 0;
+    color: #777777;
+    cursor: pointer;
+    padding-left: 12px;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1;
+}
+.input-group-prepend .btn {
+    position: relative;
+    z-index: 2;
+}
+.input-group .form-control {
+    border-right: none;
+}
+
+.product-buttons {
+    margin-bottom: 20px;
+}
+
+.btn-solid {
+    padding: 13px 29px;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    border: 2px solid #f89cab;
+    background-image: linear-gradient(30deg, #f89cab 50%, transparent 50%);
+    background-size: 850px;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+ .product-buttons .btn-outline {
+    padding: 7px 25px;
+}
+.form-control {
+    text-align: center;
+    width: 80px;
+    -webkit-box-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+}
+.input-group-prepend>.btn, .input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group-prepend:not(:first-child) .btn, .input-group-prepend:not(:first-child) .input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn:hover {
+    border-color: #f89cab;
+}
+
+@media (max-width: 992px){
+    .carousel .slide img {
+        width: 85%;
+        height: 400px;
+    }
+    .btn-solid {
+        padding: 13px 13px;
+    }
+  }
