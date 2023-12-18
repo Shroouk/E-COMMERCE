@@ -8,6 +8,7 @@ const Shop = () => {
 
     const [products, setProducts] = useState([]);
     const [category, setCategory] = useState([]);
+    const [oneCat, setOneCat] = useState('all')
      const [error, setError] = useState('');
      const [isLoading, setIsLoading] = useState(false);
 
@@ -37,7 +38,7 @@ const Shop = () => {
             setCategory(catData);
           }
     }
-const [oneCat, setOneCat] = useState('all')
+
     const handleCatChange = async(cat)=>{
        
         let url = api_url
