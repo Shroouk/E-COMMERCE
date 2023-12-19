@@ -17,7 +17,7 @@ const Home = () => {
                     <ProductsList/>
                 </div>
                 <div className={'mb-5 ' +classes["btn-box"]}>
-                    <Link to="/">
+                    <Link to="/shop">
                     View All Products
                     </Link>
                 </div>

@@ -6,7 +6,7 @@ import classes from './ProductCard.module.css'
 const ProductCard = (props) => {
     return (
      
-        <div className="col-sm-6 col-md-4 col-lg-3">
+        <div className="col-sm-6 col-md-4 col-lg-3 text-center">
         <article className={classes["card"]}>
         {props.new && <span className={"badge "+ classes["text-bg-new"]}>New</span> }
         <div className={classes["card__img"]}>

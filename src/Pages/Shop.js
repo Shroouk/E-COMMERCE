@@ -88,7 +88,7 @@ const Shop = () => {
             <div>
             <span>Filter By Category </span>
 
-            <select class={classes["cat-txt-filter"]} aria-label="Default select example" 
+            <select className={classes["cat-txt-filter"]} aria-label="Default select example" 
             value={oneCat}
             onChange={e => handleCatChange(e.target.value)}>
             <option value='all'>All</option>

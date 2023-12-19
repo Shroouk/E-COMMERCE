@@ -52,7 +52,7 @@ const Nav = () => {
             </li>
           </ul>
           <div className={classes["user_option"]}>
-            <NavLink to="user">
+            <NavLink to="/login">
             <FontAwesomeIcon icon={faUser} />
               <i className="fa fa-user" aria-hidden="true"></i>
               <span>
@@ -61,7 +61,9 @@ const Nav = () => {
             </NavLink>
             <NavLink to="cart">
             <FontAwesomeIcon icon={faBagShopping} />
-             
+            <span className={"rounded-circle " + classes["nav-cart-count"]}>
+    
+            </span>
             </NavLink>
             <form className="form-inline ">
               <button className="btn nav_search-btn" type="submit">
